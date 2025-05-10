@@ -1,20 +1,13 @@
 {
   "hosting": {
-    "site": "cloudvistalabs",
-    "public": "public",
+    "public": "out",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ],
     "rewrites": [
-      {
-        "source": "**",
-        "function": "nextApp"
-      }
+      { "source": "**", "destination": "/index.html" }
     ]
-  },
-  "functions": {
-    "source": ".output/functions"
   }
 }
