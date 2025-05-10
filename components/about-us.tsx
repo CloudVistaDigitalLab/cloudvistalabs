@@ -95,10 +95,10 @@ export default function AboutUs() {
   const aboutRef = useScrollAnimation()
 
   const stats = [
-    { value: "10+", label: "Years Experience" },
-    { value: "200+", label: "Completed Projects" },
+    { value: "3+", label: "Years Experience" },
+    { value: "50+", label: "Completed Projects" },
     { value: "50+", label: "Happy Clients" },
-    { value: "15+", label: "Team Members" },
+    { value: "5+", label: "Team Members" },
   ]
 
   const values = [

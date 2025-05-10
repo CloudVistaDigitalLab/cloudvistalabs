@@ -93,26 +93,50 @@ export default function Testimonials() {
   const [currentTestimonial, setCurrentTestimonial] = useState(0)
   const [isAnimating, setIsAnimating] = useState(false)
 
+  //const testimonials = [
+  //  {
+  //    quote:
+  //      "CloudVista transformed our business with their exceptional software development skills. They delivered a complex e-commerce platform that exceeded our expectations and has significantly boosted our revenue.",
+  //    name: "Alexandra Chen",
+  //    role: "CEO, StyleHouse",
+  //    avatar: "/placeholder.svg?height=80&width=80",
+  //  },
+  //  {
+  //    quote:
+  //      "Working with CloudVista has been a game-changer for our healthcare practice. Their mobile application streamlined our operations and improved patient engagement. Their technical expertise and attention to detail are unmatched.",
+  //    name: "Dr. Michael Torres",
+  //    role: "Medical Director, HealthFirst",
+  //    avatar: "/placeholder.svg?height=80&width=80",
+  //  },
+  //  {
+  //    quote:
+  //      "The team at CloudVista created an AI-powered analytics dashboard that revolutionized how we process financial data. Their innovative approach and technical prowess delivered a solution that gives us a competitive edge.",
+  //    name: "Sarah Williams",
+  //    role: "CTO, FinancePro",
+  //    avatar: "/placeholder.svg?height=80&width=80",
+  //  },
+  //]
+
   const testimonials = [
     {
       quote:
-        "CloudVista transformed our business with their exceptional software development skills. They delivered a complex e-commerce platform that exceeded our expectations and has significantly boosted our revenue.",
-      name: "Alexandra Chen",
-      role: "CEO, StyleHouse",
+        "Pending",
+      name: "Shenali Rivisha",
+      role: "Undergraduate",
       avatar: "/placeholder.svg?height=80&width=80",
     },
     {
       quote:
-        "Working with CloudVista has been a game-changer for our healthcare practice. Their mobile application streamlined our operations and improved patient engagement. Their technical expertise and attention to detail are unmatched.",
-      name: "Dr. Michael Torres",
-      role: "Medical Director, HealthFirst",
+        "Pending",
+      name: "Kisaja",
+      role: "Undergraduate",
       avatar: "/placeholder.svg?height=80&width=80",
     },
     {
       quote:
-        "The team at CloudVista created an AI-powered analytics dashboard that revolutionized how we process financial data. Their innovative approach and technical prowess delivered a solution that gives us a competitive edge.",
-      name: "Sarah Williams",
-      role: "CTO, FinancePro",
+        "Pending",
+      name: "Test Name",
+      role: "Undergraduate",
       avatar: "/placeholder.svg?height=80&width=80",
     },
   ]

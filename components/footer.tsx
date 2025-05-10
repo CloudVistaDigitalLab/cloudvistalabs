@@ -116,9 +116,9 @@ export default function Footer() {
                 <MapPin size={18} />
               </IconBox>
               <Box>
-                <Typography variant="body2">123 Innovation Drive</Typography>
+                <Typography variant="body2">Sri Lanka</Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Tech City, TC 90210
+                  
                 </Typography>
               </Box>
             </ContactItem>
@@ -127,9 +127,9 @@ export default function Footer() {
                 <Phone size={18} />
               </IconBox>
               <Box>
-                <Typography variant="body2">+1 (555) 123-4567</Typography>
+                <Typography variant="body2">+94 78 570 1646</Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Mon-Fri, 9AM-6PM
+                  Mon-Sun, 8AM-8PM
                 </Typography>
               </Box>
             </ContactItem>
@@ -138,9 +138,9 @@ export default function Footer() {
                 <Mail size={18} />
               </IconBox>
               <Box>
-                <Typography variant="body2">info@cloudvista.com</Typography>
+                <Typography variant="body2">hello.cvlabs@gmail.com</Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Support: support@cloudvista.com
+                  Service | Support
                 </Typography>
               </Box>
             </ContactItem>
@@ -163,7 +163,7 @@ export default function Footer() {
                 Technologies We Work With:
               </Typography>
               <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1 }}>
-                {["React", "Node.js", "MongoDB", "Firebase", "AWS", "React Native", "PHP", "Java"].map(
+                {["React", "Node.js", "MongoDB", "Firebase", "Google Cloud Run", "React Native", "PHP", "Java", "Flask", "FastAPI", "Python"].map(
                   (tech, index) => (
                     <Typography
                       key={index}
